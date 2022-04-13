@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-13T17:48:45 IST" name="com.jenkins.LoginApp_Test" finished-at="2022-04-13T17:50:08 IST" duration-ms="82155">
+    <groups>
+    </groups>
+    <test started-at="2022-04-13T17:48:45 IST" name="Command line test" finished-at="2022-04-13T17:50:08 IST" duration-ms="82155">
+      <class name="com.jenkins.LoginApp_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jenkins.LoginApp_Test@2a65fe7c]" started-at="2022-04-13T17:48:45 IST" name="beforeClass" finished-at="2022-04-13T17:49:08 IST" duration-ms="22673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testlogin()[pri:1, instance:com.jenkins.LoginApp_Test@2a65fe7c]" started-at="2022-04-13T17:49:08 IST" name="testlogin" finished-at="2022-04-13T17:50:05 IST" duration-ms="57278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="testlogout()[pri:2, instance:com.jenkins.LoginApp_Test@2a65fe7c]" started-at="2022-04-13T17:50:05 IST" name="testlogout" finished-at="2022-04-13T17:50:07 IST" depends-on-methods="com.jenkins.LoginApp_Test.testlogin" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogout -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.jenkins.LoginApp_Test@2a65fe7c]" started-at="2022-04-13T17:50:07 IST" name="afterClass" finished-at="2022-04-13T17:50:08 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.jenkins.LoginApp_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.jenkins.LoginApp_Test -->
+</testng-results>
