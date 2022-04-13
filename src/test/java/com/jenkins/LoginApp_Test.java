@@ -35,7 +35,6 @@ public class LoginApp_Test {
 		ChromeOptions options = new ChromeOptions();
 		options.setHeadless(true);
 		driver = new ChromeDriver(options);
-		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://demowebshop.tricentis.com/login");
 	}
